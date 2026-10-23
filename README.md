@@ -30,7 +30,12 @@ A simulated account holds 70 units of exposure under a 100-unit limit. Two incom
 
 ## System map
 
-```mermaid
+![Proposed system architecture](assets/architecture.svg)
+
+<details>
+<summary>Editable Mermaid source</summary>
+
+```text
 flowchart TD
   A[Policy bundle] --> C[Decision core]
   B[Order intent and snapshot] --> C
@@ -41,6 +46,8 @@ flowchart TD
   E --> G[Operator inspector]
   C --> H[Routing client]
 ```
+
+</details>
 
 The arrows describe proposed data or control relationships. Detailed ownership and error paths live in the architecture and pipeline specifications.
 
