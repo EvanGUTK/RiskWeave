@@ -1,0 +1,14 @@
+# Local credentials and non-redistributable artifacts
+.env
+.env.*
+!.env.example
+secrets/
+data/raw/
+artifacts/private/
+*.pem
+*.key
+__pycache__/
+.venv/
+node_modules/
+build/
+.godot/
